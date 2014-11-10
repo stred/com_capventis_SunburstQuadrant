@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Definition.xsd" Label="CapVentis Sunburst Quadrant" Description="CapVentis Sunburst Quadrant" Type="object" PageHeight="15000">
+    <Dimension Label="Dimensions - up to 4:" Initial="" Multiple=""  />
+    <Measurement Initial="" Label="Measure:"  />
+	<Text Label="Line Colour" Type="color" Expression="#f0f0fa" />
+	<Text Label="Colour for dimension 1" Type="color" Expression="#4477aa" />
+	<Text Label="Colour for dimension 2" Type="color" Expression="#117733" />
+	<Text Label="Colour for dimension 3" Type="color" Expression="#ddcc77" />
+	<Text Label="Colour for dimension 4" Type="color" Expression="#cc6677" />
+    <Initiate Name="Caption.Text" Value="CapVentis Sunburst Quadrant" />
+    <Initiate Name="Caption.Font.Italic" Value="1" /> 
+    <Initiate Name="Chart.BgColor.ColorHex" Value="#ffffff" /> 
+	<Initiate Name="Layout.Border.Use" Value="0" />
+</ExtensionObject>
